@@ -4,10 +4,8 @@ from app import app
 
 client = TestClient(app)
 
+API_KEY = "your_api_key_here"
 
-# API_KEY = "your_api_key_here"
-
-API_KEY="my_super_secret_api_key_123"
 
 headers = {
     "X-API-Key": API_KEY
